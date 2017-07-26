@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">EjercicioFinal</string>
+    <string name="creacion_de_usuario">Creacion de Usuario</string>
+    <string name="nombre">nombre</string>
+    <string name="apellido">apellido</string>
+    <string name="password">password</string>
+    <string name="confirmar_password">Confirmar Password</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="interese">Interese</string>
+    <string name="enviar">enviar</string>
 </resources>

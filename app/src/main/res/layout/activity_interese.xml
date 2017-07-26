@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alumno.ejerciciofinal.Interese">
+
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/interese"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <RadioButton
+                android:id="@+id/rbAndroidYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Si"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/rbAndroidNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <RadioButton
+                android:id="@+id/rbJavaYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Si"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/rbJavaNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spring"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <RadioButton
+                    android:id="@+id/rbSpringYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Si"
+                    android:checked="true"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rbSpringNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:onClick="enviar"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
